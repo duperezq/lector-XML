@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectura de archivo XML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="cabecera">
+        <ul>
+            <li class="cabecera__texto">Lector de archivo XML</li>
+        </ul>
+        <img class="cabecera__logo-umg" src="./img/logoUMGLargo.png" alt="Logo UMG">
+    </header>
+    <main>
+        <div class="contenedor__input">
+            <p>Seleccione el archivo XML a leer:</p>
+            <input class="input__file" type="file" onchange="leerArchivo(this)" title="Seleccionar archivo">
+        </div>
+        <div id="container">
+            <div id="tabla"></div>
+            <div id="tabla2"></div>
+        </div>
+        
+    </main>
+    <footer class="rodapie"></footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+   <if>
+    <condicion>Menor</condicion>
+    <numero1>5</numero1>
+    <numero2>10</numero2>
+  </if>
+  <if>
+    <condicion>Mayor</condicion>
+    <numero1>15</numero1>
+    <numero2>10</numero2>
+  </if>
+  <if>
+    <condicion>Mayor</condicion>
+    <numero1>10</numero1>
+    <numero2>10</numero2>
+  </if>
+  <if>
+    <condicion>Mayor</condicion>
+    <numero1>d</numero1>
+    <numero2>10</numero2>
+  </if>
+  <if>
+    <condicion>Menor</condicion>
+    <numero1>d</numero1>
+    <numero2>d</numero2>
+  </if>
+  <if>
+    <condicion>Mayor</condicion>
+    <numero1>d</numero1>
+    <numero2>d</numero2>
+  </if>
+  <mate>
+    <tipo>Suma</tipo>
+    <num1>10</num1>
+    <num2>41</num2>
+  </mate>
+  <ciclo>
+    <clase>for</clase>
+    <mensaje>Hola Mundo For</mensaje>
+    <iterador>2</iterador>
+  </ciclo>
+</datos>
+
